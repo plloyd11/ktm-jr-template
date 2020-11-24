@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="mx-auto max-w-7xl">
+    <section class="mx-auto max-w-screen-2xl">
       <img src="~/assets/img/hero.jpg" alt="KTM JR Register Banner" />
     </section>
     <section class="px-4 mx-auto mt-12 sm:mt-24 max-w-7xl sm:px-6 lg:px-8">
@@ -9,15 +9,18 @@
           <div class="px-4 py-5 space-y-4 sm:p-6">
             <p>Dear KTM Junior Supercross Racing applicants,</p>
             <p>
-              Due to the ongoing COVID-19 situation, and the cancellation of select 2020 Supercross
-              events, rounds 8-10 of the KTM Junior Racing series have been cancelled. As we await
-              rescheduled event confirmation from our partners at FELD and the American Motorcyclist
-              Association, the rider selection for the final three rounds has been postponed. This
-              applies to current and new applicants. We will continue to publish updates as things
-              return to normal.
+              Due to the ongoing COVID-19 situation, and the cancellation of
+              select 2020 Supercross events, rounds 8-10 of the KTM Junior
+              Racing series have been cancelled. As we await rescheduled event
+              confirmation from our partners at FELD and the American
+              Motorcyclist Association, the rider selection for the final three
+              rounds has been postponed. This applies to current and new
+              applicants. We will continue to publish updates as things return
+              to normal.
             </p>
             <p>
-              We appreciate your patience as we navigate through this postponement.
+              We appreciate your patience as we navigate through this
+              postponement.
             </p>
           </div>
         </div>
@@ -28,7 +31,9 @@
             <form class="mt-6">
               <label for="registration" class="sr-only">Registration</label>
               <div class="flex mt-1 rounded-md shadow">
-                <div class="relative flex items-stretch flex-grow focus-within:z-10">
+                <div
+                  class="relative flex items-stretch flex-grow focus-within:z-10"
+                >
                   <div
                     class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none"
                   ></div>
@@ -49,8 +54,8 @@
             </form>
 
             <p class="mt-2 text-xs">
-              Don’t remember your code? Click <a href="#" class="text-ktmPrimary">here</a> to
-              retrieve it!
+              Don’t remember your code? Click
+              <a href="#" class="text-ktmPrimary">here</a> to retrieve it!
             </p>
           </div>
         </div>

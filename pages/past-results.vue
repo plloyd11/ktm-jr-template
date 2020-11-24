@@ -1,7 +1,7 @@
 <template>
-  <div class="max-w-7xl mx-auto">
+  <section class="mx-auto max-w-screen-2xl">
     <img src="~/assets/img/hero.jpg" alt="KTM JR Register Banner" />
-  </div>
+  </section>
 </template>
 
 <script>
