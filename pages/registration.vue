@@ -129,13 +129,13 @@
                   <div class="grid grid-cols-6 gap-6">
                     <div class="col-span-6 sm:col-span-3">
                       <label
-                        for="parent_first_name"
+                        for="parents_first_name"
                         class="block text-sm font-medium text-gray-700"
-                        >Parent's First Name</label
-                      >
+                        >Parent's First Name
+                      </label>
                       <input
                         type="text"
-                        id="parent_first_name"
+                        id="parents_first_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                         required
                       />
@@ -143,13 +143,13 @@
 
                     <div class="col-span-6 sm:col-span-3">
                       <label
-                        for="parent_last_name"
+                        for="parents_last_name"
                         class="block text-sm font-medium text-gray-700"
-                        >Parent's Last Name</label
-                      >
+                        >Parent's Last Name
+                      </label>
                       <input
                         type="text"
-                        id="parent_last_name"
+                        id="parents_last_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                         required
                       />
@@ -157,13 +157,13 @@
 
                     <div class="col-span-6 sm:col-span-3">
                       <label
-                        for="parent_last_name"
+                        for="parents_email"
                         class="block text-sm font-medium text-gray-700"
-                        >Parent's Last Name</label
-                      >
+                        >Parent's Email Address
+                      </label>
                       <input
                         type="text"
-                        id="parent_last_name"
+                        id="parents_email"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                         required
                       />
@@ -171,13 +171,13 @@
 
                     <div class="col-span-6 sm:col-span-3">
                       <label
-                        for="parent_last_name"
+                        for="parents_ama_number"
                         class="block text-sm font-medium text-gray-700"
-                        >Parent's Last Name</label
-                      >
+                        >Parent's AMA Number
+                      </label>
                       <input
                         type="text"
-                        id="parent_last_name"
+                        id="parents_ama_number"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                         required
                       />
@@ -187,8 +187,8 @@
                       <label
                         for="parents_shirt_size"
                         class="block text-sm font-medium text-gray-700"
-                        >Parent’s Shirt Size</label
-                      >
+                        >Parent’s Shirt Size
+                      </label>
                       <select
                         id="parents_shirt_size"
                         class="block w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
@@ -235,103 +235,213 @@
                   <div class="grid grid-cols-6 gap-6">
                     <div class="col-span-6 sm:col-span-3">
                       <label
-                        id="first_name"
-                        for="first_name"
+                        for="riders_first_name"
                         class="block text-sm font-medium text-gray-700"
-                        >First name</label
-                      >
+                        >Rider's First Name
+                      </label>
                       <input
                         type="text"
-                        id="first_name"
+                        id="riders_first_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
                       />
                     </div>
 
                     <div class="col-span-6 sm:col-span-3">
                       <label
-                        id="value"
-                        for="last_name"
+                        for="riders_last_name"
                         class="block text-sm font-medium text-gray-700"
-                        >Last name</label
-                      >
+                        >Rider's Last Name
+                      </label>
                       <input
                         type="text"
-                        id="last_name"
+                        id="riders_last_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
                       />
                     </div>
 
                     <div class="col-span-6 sm:col-span-3">
                       <label
-                        id="value"
-                        for="country"
+                        for="riders_phone_number"
                         class="block text-sm font-medium text-gray-700"
-                        >Country / Region</label
-                      >
-                      <select
-                        id="country"
-                        class="block w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
-                      >
-                        <option>United States</option>
-                        <option>Canada</option>
-                        <option>Mexico</option>
-                      </select>
+                        >Rider's Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        id="riders_phone_number"
+                        class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
+                      />
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3">
+                      <label
+                        for="riders_dob"
+                        class="block text-sm font-medium text-gray-700"
+                        >Rider's Date Of Birth
+                      </label>
+                      <input
+                        type="date"
+                        id="riders_dob"
+                        class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
+                      />
                     </div>
 
                     <div class="col-span-6">
                       <label
-                        id="value"
-                        for="street_address"
+                        for="riders_street_address"
                         class="block text-sm font-medium text-gray-700"
-                        >Street address</label
-                      >
+                        >Street address
+                      </label>
                       <input
                         type="text"
-                        id="street_address"
+                        id="riders_street_address"
+                        class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
+                      />
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-6 lg:col-span-2">
+                      <label
+                        for="riders_city"
+                        class="block text-sm font-medium text-gray-700"
+                        >City
+                      </label>
+                      <input
+                        type="text"
+                        id="riders_city"
+                        class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                      />
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                      <label
+                        for="riders_state"
+                        class="block text-sm font-medium text-gray-700"
+                        >State
+                      </label>
+                      <input
+                        type="text"
+                        id="riders_state"
+                        class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                      />
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                      <label
+                        for="riders_zip_code"
+                        class="block text-sm font-medium text-gray-700"
+                        >ZIP
+                      </label>
+                      <input
+                        type="number"
+                        id="riders_zip_code"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                       />
                     </div>
 
                     <div class="col-span-6 sm:col-span-6 lg:col-span-2">
                       <label
-                        id="valussssse"
-                        for="city"
+                        for="riders_city"
                         class="block text-sm font-medium text-gray-700"
-                        >City</label
-                      >
+                        >Height
+                      </label>
                       <input
                         type="text"
-                        id="city"
+                        id="riders_city"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                       />
                     </div>
 
                     <div class="col-span-6 sm:col-span-3 lg:col-span-2">
                       <label
-                        id="valuesssss"
-                        for="state"
+                        for="riders_state"
                         class="block text-sm font-medium text-gray-700"
-                        >State / Province</label
-                      >
+                        >Weight
+                      </label>
                       <input
                         type="text"
-                        id="state"
+                        id="riders_state"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                       />
                     </div>
 
                     <div class="col-span-6 sm:col-span-3 lg:col-span-2">
                       <label
-                        id="value"
-                        for="postal_code"
+                        for="riders_zip_code"
                         class="block text-sm font-medium text-gray-700"
-                        >ZIP / Postal</label
-                      >
+                        >Sex
+                      </label>
                       <input
-                        type="text"
-                        id="postal_code"
+                        type="number"
+                        id="riders_zip_code"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
                       />
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                      <label
+                        for="parents_shirt_size"
+                        class="block text-sm font-medium text-gray-700"
+                        >Rider's Jersey Size
+                      </label>
+                      <select
+                        id="parents_shirt_size"
+                        class="block w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
+                      >
+                        <option selected disabled>Choose a size: </option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>XL</option>
+                        <option>2XL</option>
+                        <option>3XL</option>
+                      </select>
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                      <label
+                        for="parents_shirt_size"
+                        class="block text-sm font-medium text-gray-700"
+                        >Rider's Pants Size
+                      </label>
+                      <select
+                        id="parents_shirt_size"
+                        class="block w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
+                      >
+                        <option selected disabled>Choose a size: </option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>XL</option>
+                        <option>2XL</option>
+                        <option>3XL</option>
+                      </select>
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+                      <label
+                        for="parents_shirt_size"
+                        class="block text-sm font-medium text-gray-700"
+                        >Rider's Glove Size
+                      </label>
+                      <select
+                        id="parents_shirt_size"
+                        class="block w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
+                      >
+                        <option selected disabled>Choose a size: </option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>XL</option>
+                        <option>2XL</option>
+                        <option>3XL</option>
+                      </select>
                     </div>
                   </div>
                 </div>
@@ -367,7 +477,7 @@
                   <div class="px-4 py-5 space-y-6 bg-white sm:p-6">
                     <div>
                       <label class="block text-sm font-medium text-gray-700">
-                        Photo
+                        Rider's Profile Photo
                       </label>
                       <div class="flex items-center mt-2">
                         <span
@@ -390,6 +500,20 @@
                           Change
                         </button>
                       </div>
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3">
+                      <label
+                        for="riders_first_name"
+                        class="block text-sm font-medium text-gray-700"
+                        >Rider's AMA Number (if applicable)
+                      </label>
+                      <input
+                        type="text"
+                        id="riders_first_name"
+                        class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
+                      />
                     </div>
 
                     <div>
@@ -416,6 +540,43 @@
                     <div>
                       <label class="block text-sm font-medium text-gray-700">
                         Birth Certificate Image
+                      </label>
+                      <div
+                        class="flex justify-center px-6 pt-5 pb-6 mt-2 border-2 border-gray-300 border-dashed rounded-md"
+                      >
+                        <div class="space-y-1 text-center">
+                          <svg
+                            class="w-12 h-12 mx-auto text-gray-400"
+                            stroke="currentColor"
+                            fill="none"
+                            viewBox="0 0 48 48"
+                            aria-hidden="true"
+                          >
+                            <path
+                              d="M28 8H12a4 4 0 00-4 4v20m32-12v8m0 0v8a4 4 0 01-4 4H12a4 4 0 01-4-4v-4m32-4l-3.172-3.172a4 4 0 00-5.656 0L28 28M8 32l9.172-9.172a4 4 0 015.656 0L28 28m0 0l4 4m4-24h8m-4-4v8m-12 4h.02"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                          <p class="text-sm text-gray-600">
+                            <button
+                              class="font-medium bg-white rounded-md text-ktmPrimary hover:text-indigo-500 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ktmPrimary"
+                            >
+                              Upload a file
+                            </button>
+                            or drag and drop
+                          </p>
+                          <p class="text-xs text-gray-500">
+                            PNG, JPG, GIF up to 10MB
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <label class="block text-sm font-medium text-gray-700">
+                        Report Card Image
                       </label>
                       <div
                         class="flex justify-center px-6 pt-5 pb-6 mt-2 border-2 border-gray-300 border-dashed rounded-md"
