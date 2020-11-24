@@ -1,13 +1,13 @@
 <template>
   <main>
-    <div class="max-w-screen-2xl mx-auto">
+    <section class="mx-auto max-w-screen-2xl">
       <img src="~/assets/img/hero.jpg" alt="KTM JR Register Banner" />
-    </div>
+    </section>
     <section>
       <!-- This example requires Tailwind CSS v2.0+ -->
       <div class="bg-white">
         <div
-          class="px-4 py-16 max-w-screen-2xl mx-auto sm:px-6 lg:py-20 lg:px-8"
+          class="px-4 py-16 mx-auto max-w-screen-2xl sm:px-6 lg:py-20 lg:px-8"
         >
           <div class="lg:grid lg:grid-cols-3 lg:gap-8">
             <div>
@@ -39,7 +39,7 @@
                     created by KTM as the KTM JUNIOR RACING in the mid-90’s as a
                     high-quality intermission exhibition held at Supercross
                     stadium events. Riders compete aboard identically prepared
-                    KTM 2020 50 SX sportminicycles in a three-lap feature race.
+                    2021 KTM SX-E 5 sportminicycles in a three-lap feature race.
                   </dd>
                 </div>
 

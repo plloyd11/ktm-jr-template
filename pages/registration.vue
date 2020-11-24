@@ -3,6 +3,108 @@
     <section class="mx-auto max-w-screen-2xl">
       <img src="~/assets/img/hero.jpg" alt="KTM JR Register Banner" />
     </section>
+    <section class="px-4 mx-auto mt-12 max-w-7xl sm:mt-24 sm:px-6 lg:px-8">
+      <div class="relative z-10 mb-8 md:mb-2 md:px-6">
+        <div class="text-base max-w-prose lg:max-w-none">
+          <h4
+            class="font-semibold leading-6 tracking-wide uppercase text-ktmPrimary"
+          >
+            OFFICIAL KTM JUNIOR RACING PROGRAM 2021
+          </h4>
+          <h2
+            class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Application Information
+          </h2>
+          <div class="max-w-screen-lg mt-8 prose-lg text-gray-800">
+            <p>
+              Thank you for your interest in the KTM JUNIOR RACING program. This
+              is truly a unique opportunity for your child to experience life as
+              a professional racer for a day! Below you will find the official
+              rules, the KTM JUNIOR RACING event schedule and application form.
+              Please read through all the information carefully.
+            </p>
+            <p>
+              For the safety of all riders, the rider applying for the program
+              must have at least one year of racing experience to be eligible.
+              Today's Supercross tracks are not playgrounds and present very
+              challenging riding conditions. To make sure the KTM JUNIOR RACING
+              experience is a positive one, every parent should strongly
+              evaluate whether or not their child's riding skills are up to the
+              challenge.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="relative md:p-6">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-6">
+          <div class="mt-6 prose prose-lg text-gray-800 lg:mt-0">
+            <p>
+              How the application process works:
+            </p>
+            <ol>
+              <li>
+                Get yourself familiar with the rules and information. (links to
+                rules page)
+              </li>
+              <li>
+                Complete the 2021 Application in full and include all
+                supplemental materials.
+              </li>
+              <li>
+                Qualified applicants will be selected at random. A drawing to
+                determine final contestants will be conducted 4 weeks before
+                selected event.
+              </li>
+              <li>
+                All applicants will be notified at least 3 weeks prior to the
+                event. Those picked will receive detailed instructions regarding
+                race day procedures.
+              </li>
+              <li>
+                Please be sure to check the box for all rounds you are
+                interested in racing.
+              </li>
+              <li>
+                KTM JUNIOR RACING Participants and mechanics must be current
+                American Motorcyclist Association (AMA) members on the day of
+                the event to receive track-access passes. AMA memberships can be
+                purchased and/or renewed at the event, or you can ask your KTM
+                dealer how to contact the AMA for memberships.
+              </li>
+            </ol>
+          </div>
+          <div class="prose prose-lg text-gray-800 lg:max-w-none">
+            <p>If selected, riders will:</p>
+            <ul>
+              <li>Pay a $300 (US) entry fee</li>
+              <li>
+                Receive a complete KTM x Troy Lee Designs riding outfit (pants,
+                jersey, gloves)
+              </li>
+              <li>
+                Receive a KTM JUNIOR RACING Participation Certificate
+              </li>
+              <li>
+                Receive 4 complimentary passes (1 rider/1 mechanic/ 2
+                complimentary passes)
+              </li>
+              <li>
+                Receive a day experiencing the "Factory Rider Treatment"
+              </li>
+              <li>
+                Arrive at the Supercross location on Saturday morning for
+                registration and practice
+              </li>
+              <li>
+                Participate in the KTM JUNIOR RACING race during the
+                intermission of Saturday night's main event
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="max-w-6xl px-4 mx-auto mt-12 sm:mt-24 sm:px-6 lg:px-8">
       <h2 class="mb-20 text-4xl">
         Official KTM Junior Racing Program 2021 Application
@@ -35,6 +137,7 @@
                         type="text"
                         id="parent_first_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
                       />
                     </div>
 
@@ -48,6 +151,7 @@
                         type="text"
                         id="parent_last_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
                       />
                     </div>
 
@@ -61,6 +165,7 @@
                         type="text"
                         id="parent_last_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
                       />
                     </div>
 
@@ -74,6 +179,7 @@
                         type="text"
                         id="parent_last_name"
                         class="block w-full mt-1 border-gray-300 rounded-md focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
                       />
                     </div>
 
@@ -86,10 +192,12 @@
                       <select
                         id="parents_shirt_size"
                         class="block w-full px-3 py-2 mt-1 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-ktmPrimary focus:border-ktmPrimaryDark sm:text-sm"
+                        required
                       >
-                        <option>S</option>
-                        <option>M</option>
-                        <option>L</option>
+                        <option selected disabled>Choose a size: </option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
                         <option>XL</option>
                         <option>2XL</option>
                         <option>3XL</option>
@@ -388,11 +496,10 @@
                             <label
                               for="comments"
                               class="font-medium text-gray-700"
-                              >JANUARY 11 - THE DOME at america’s center | st.
-                              louis, mo</label
-                            >
+                              >JANUARY 16 - NRG Stadium | Houston, TX
+                            </label>
                             <p class="text-gray-500">
-                              Registration Deadline: November 29, 2020
+                              Registration Deadline: December 18, 2020
                             </p>
                           </div>
                         </div>
@@ -408,11 +515,10 @@
                             <label
                               for="candidates"
                               class="font-medium text-gray-700"
-                              >JANUARY 18 - angel stadium of anaheim | anaheim,
-                              CA</label
-                            >
+                              >JANUARY 23 - NRG Stadium | Houston, TX
+                            </label>
                             <p class="text-gray-500">
-                              Registration Deadline: December 6, 2020
+                              Registration Deadline: December 25, 2020
                             </p>
                           </div>
                         </div>
@@ -428,11 +534,144 @@
                             <label
                               for="offers"
                               class="font-medium text-gray-700"
-                              >JANUARY 25 - state farm stadium | glendale,
-                              az</label
+                              >JANUARY 30 - Lucas Oil Stadium | Indianapolis, IN
+                            </label>
+                            <p class="text-gray-500">
+                              Registration Deadline: January 1, 2021
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input
+                              id="offers"
+                              type="checkbox"
+                              class="w-4 h-4 border-gray-300 rounded text-ktmPrimary focus:ring-ktmPrimary"
+                            />
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label
+                              for="offers"
+                              class="font-medium text-gray-700"
+                              >FEBRUARY 20 - State Farm Stadium | Glendale, AZ
+                            </label>
+                            <p class="text-gray-500">
+                              Registration Deadline: January 22, 2021
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input
+                              id="offers"
+                              type="checkbox"
+                              class="w-4 h-4 border-gray-300 rounded text-ktmPrimary focus:ring-ktmPrimary"
+                            />
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label
+                              for="offers"
+                              class="font-medium text-gray-700"
+                              >FEBRUARY 27 - State Farm Stadium | Glendale, AZ
+                            </label>
+                            <p class="text-gray-500">
+                              Registration Deadline: January 29, 2021
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input
+                              id="offers"
+                              type="checkbox"
+                              class="w-4 h-4 border-gray-300 rounded text-ktmPrimary focus:ring-ktmPrimary"
+                            />
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label
+                              for="offers"
+                              class="font-medium text-gray-700"
+                              >MARCH 20 - AT&T Stadium | Arlington, TX
+                            </label>
+                            <p class="text-gray-500">
+                              Registration Deadline: February 19, 2021
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input
+                              id="offers"
+                              type="checkbox"
+                              class="w-4 h-4 border-gray-300 rounded text-ktmPrimary focus:ring-ktmPrimary"
+                            />
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label
+                              for="offers"
+                              class="font-medium text-gray-700"
+                              >MARCH 27 - AT&T Stadium | Arlington, TX</label
                             >
                             <p class="text-gray-500">
-                              Registration Deadline: December 13, 2020
+                              Registration Deadline: February 26, 2021
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input
+                              id="offers"
+                              type="checkbox"
+                              class="w-4 h-4 border-gray-300 rounded text-ktmPrimary focus:ring-ktmPrimary"
+                            />
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label
+                              for="offers"
+                              class="font-medium text-gray-700"
+                              >ROUND 8 - TBD</label
+                            >
+                            <p class="text-gray-500">
+                              Registration Deadline: TBD
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input
+                              id="offers"
+                              type="checkbox"
+                              class="w-4 h-4 border-gray-300 rounded text-ktmPrimary focus:ring-ktmPrimary"
+                            />
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label
+                              for="offers"
+                              class="font-medium text-gray-700"
+                              >ROUND 9 - TBD
+                            </label>
+                            <p class="text-gray-500">
+                              Registration Deadline: TBD
+                            </p>
+                          </div>
+                        </div>
+                        <div class="flex items-start">
+                          <div class="flex items-center h-5">
+                            <input
+                              id="offers"
+                              type="checkbox"
+                              class="w-4 h-4 border-gray-300 rounded text-ktmPrimary focus:ring-ktmPrimary"
+                            />
+                          </div>
+                          <div class="ml-3 text-sm">
+                            <label
+                              for="offers"
+                              class="font-medium text-gray-700"
+                              >ROUND 10 - Rice-Eccles Stadium | Salt Lake City,
+                              UT
+                            </label>
+                            <p class="text-gray-500">
+                              Registration Deadline: TBD
                             </p>
                           </div>
                         </div>
@@ -445,10 +684,49 @@
           </div>
         </div>
 
+        <div class="hidden sm:block" aria-hidden="true">
+          <div class="py-5">
+            <div class="border-t border-gray-200"></div>
+          </div>
+        </div>
+
+        <div class="max-w-screen-md prose text-gray-800">
+          <p class="font-bold">
+            IF YOUR CHILD HAS NEVER RACED, PLEASE DO NOT APPLY BECAUSE A MONSTER
+            ENERGY SUPERCROSS TRACK IS NOT IDEAL FOR A FIRST-TIME-RACING
+            EXPERIENCE.
+          </p>
+          <p class="font-bold">
+            THERE MAY BE CIRCUMSTANCES (SUCH AS WEATHER, TRACK CONDITIONS AND
+            SAFETY ISSUES) THAT MAY FORCE FELD MOTOR SPORTS, INC AND KTM TO
+            ALTER THE SCHEDULE, THE COURSE, OR CANCEL AN EVENT. FELD MOTOR
+            SPORTS, INC AND KTM RESERVE THE RIGHT TO ADJUST THE SCHEDULE AS THEY
+            SEE FIT.
+          </p>
+          <p>
+            Parents: If your child has participated in a KTM JUNIOR RACING event
+            before, they are not eligible to enter again. This year, KTM JUNIOR
+            RACING participants will ride the 2021 KTM SX-E 5. Before completing
+            the entry form, please be sure your child would like to participate
+            in this event. It may sound like the chance of a lifetime for you
+            and be a nightmare to your child. Consider that your child will be
+            in front of 50,000 spectators riding over LARGE and technical
+            obstacles. We want this to be a positive experience for your child.
+            Also, consider your role in this event. KTM JUNIOR RACING is
+            intended to be a fun event with the emphasis on sportsmanship.
+            Abusive, high-pressure tactics will get you, and unfortunately your
+            child, ejected immediately.
+          </p>
+          <p>
+            Thank you for your application and interest in KTM North America and
+            the KTM JUNIOR RACING program!
+          </p>
+        </div>
+
         <div class="mt-12 text-right">
           <button
             type="submit"
-            class="inline-flex justify-center px-4 py-2 font-medium text-white uppercase border border-transparent shadow-sm bg-ktmPrimary hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ktmPrimary"
+            class="inline-flex justify-center px-4 py-2 font-medium text-white uppercase border border-transparent shadow-sm bg-ktmPrimary hover:bg-ktmPrimaryDark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ktmPrimary"
           >
             Submit
           </button>

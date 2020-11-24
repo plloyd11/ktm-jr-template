@@ -21,7 +21,7 @@
         <div
           class="relative z-10 mx-auto text-base max-w-prose lg:max-w-5xl lg:mx-0 lg:pr-72"
         >
-          <p class="text-lg text-gray-500">
+          <p class="text-lg text-gray-800">
             In its eighteenth year in existence, the KTM JUNIOR RACING Program
             has showcased the talents of over 3000 boys and girls in stadium
             racing venues worldwide, racing on the very same tracks as their
@@ -33,15 +33,15 @@
         </div>
         <div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
           <div class="relative z-10">
-            <div class="mx-auto prose text-gray-500 prose-indigo lg:max-w-none">
+            <div class="mx-auto prose text-gray-800 lg:max-w-none">
               <p>
-                From the first practice lap aboard the 2021 KTM 50 SX motorcycle
-                to the final race, KTM JUNIOR RACING offers a safe, supportive
-                and entertaining environment for all riders, parents and fans.
-                KTM JUNIOR RACING is a fantastic opportunity for participants to
-                immerse themselves in the excitement of Supercross from a very
-                unique perspective, and to enjoy the sport as a fun and
-                rewarding experience.
+                From the first practice lap aboard the 2021 KTM SX-E 5
+                motorcycle to the final race, KTM JUNIOR RACING offers a safe,
+                supportive and entertaining environment for all riders, parents
+                and fans. KTM JUNIOR RACING is a fantastic opportunity for
+                participants to immerse themselves in the excitement of
+                Supercross from a very unique perspective, and to enjoy the
+                sport as a fun and rewarding experience.
               </p>
               <p>
                 For 2021, the application process is available online.
@@ -221,9 +221,7 @@
                   </div>
                 </div>
               </div>
-              <div
-                class="mt-6 prose prose-lg text-gray-500 prose-indigo lg:mt-0"
-              >
+              <div class="mt-6 prose prose-lg text-gray-800 lg:mt-0">
                 <div class="space-y-6">
                   <div>
                     <h5 class="text-black">

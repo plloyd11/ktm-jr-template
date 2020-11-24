@@ -7,9 +7,12 @@
         aria-label="Footer"
       >
         <div class="px-5 py-2">
-          <a href="#" class="text-base text-white hover:text-gray-200">
+          <nuxt-link
+            to="/legal-notices"
+            class="text-base text-white hover:text-gray-200"
+          >
             Legal Notices
-          </a>
+          </nuxt-link>
         </div>
 
         <div class="px-5 py-2">
