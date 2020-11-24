@@ -3,6 +3,108 @@
     <section class="mx-auto max-w-screen-2xl">
       <img src="~/assets/img/hero.jpg" alt="KTM JR Register Banner" />
     </section>
+    <section class="px-4 mx-auto mt-12 max-w-7xl sm:mt-24 sm:px-6 lg:px-8">
+      <div class="relative z-10 mb-8 md:mb-2 md:px-6">
+        <div class="text-base max-w-prose lg:max-w-none">
+          <h4
+            class="font-semibold leading-6 tracking-wide uppercase text-ktmPrimary"
+          >
+            OFFICIAL KTM JUNIOR RACING PROGRAM 2021
+          </h4>
+          <h2
+            class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl"
+          >
+            Application Information
+          </h2>
+          <div class="max-w-screen-lg mt-8 prose-lg text-gray-800">
+            <p>
+              Thank you for your interest in the KTM JUNIOR RACING program. This
+              is truly a unique opportunity for your child to experience life as
+              a professional racer for a day! Below you will find the official
+              rules, the KTM JUNIOR RACING event schedule and application form.
+              Please read through all the information carefully.
+            </p>
+            <p>
+              For the safety of all riders, the rider applying for the program
+              must have at least one year of racing experience to be eligible.
+              Today's Supercross tracks are not playgrounds and present very
+              challenging riding conditions. To make sure the KTM JUNIOR RACING
+              experience is a positive one, every parent should strongly
+              evaluate whether or not their child's riding skills are up to the
+              challenge.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="relative md:p-6">
+        <div class="lg:grid lg:grid-cols-2 lg:gap-6">
+          <div class="mt-6 prose prose-lg text-gray-800 lg:mt-0">
+            <p>
+              How the application process works:
+            </p>
+            <ol>
+              <li>
+                Get yourself familiar with the rules and information. (links to
+                rules page)
+              </li>
+              <li>
+                Complete the 2021 Application in full and include all
+                supplemental materials.
+              </li>
+              <li>
+                Qualified applicants will be selected at random. A drawing to
+                determine final contestants will be conducted 4 weeks before
+                selected event.
+              </li>
+              <li>
+                All applicants will be notified at least 3 weeks prior to the
+                event. Those picked will receive detailed instructions regarding
+                race day procedures.
+              </li>
+              <li>
+                Please be sure to check the box for all rounds you are
+                interested in racing.
+              </li>
+              <li>
+                KTM JUNIOR RACING Participants and mechanics must be current
+                American Motorcyclist Association (AMA) members on the day of
+                the event to receive track-access passes. AMA memberships can be
+                purchased and/or renewed at the event, or you can ask your KTM
+                dealer how to contact the AMA for memberships.
+              </li>
+            </ol>
+          </div>
+          <div class="prose prose-lg text-gray-800 lg:max-w-none">
+            <p>If selected, riders will:</p>
+            <ul>
+              <li>Pay a $300 (US) entry fee</li>
+              <li>
+                Receive a complete KTM x Troy Lee Designs riding outfit (pants,
+                jersey, gloves)
+              </li>
+              <li>
+                Receive a KTM JUNIOR RACING Participation Certificate
+              </li>
+              <li>
+                Receive 4 complimentary passes (1 rider/1 mechanic/ 2
+                complimentary passes)
+              </li>
+              <li>
+                Receive a day experiencing the "Factory Rider Treatment"
+              </li>
+              <li>
+                Arrive at the Supercross location on Saturday morning for
+                registration and practice
+              </li>
+              <li>
+                Participate in the KTM JUNIOR RACING race during the
+                intermission of Saturday night's main event
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="max-w-6xl px-4 mx-auto mt-12 sm:mt-24 sm:px-6 lg:px-8">
       <h2 class="mb-20 text-4xl">
         Official KTM Junior Racing Program 2021 Application
@@ -631,21 +733,9 @@
         </div>
       </form>
     </section>
-    <div v-if="!loading"></div>
   </main>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      loading: true
-    }
-  },
-  created() {
-    this.$nextTick(function () {
-      this.loading = false
-    })
-  }
-}
+export default {}
 </script>
